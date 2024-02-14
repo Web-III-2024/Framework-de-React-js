@@ -10,6 +10,7 @@ import React from 'react';
 			import Variables from "./pages/variables";			
 			import Funciones from "./pages/funciones";
 			import Modulos from "./pages/modulos";
+import MiCasita from './pages/micasita';
 
 			const root = ReactDOM.createRoot(
 			  document.getElementById('root') as HTMLElement
@@ -24,6 +25,7 @@ import React from 'react';
 					  <Route path="/variables" element={<Variables />} />					  
 					  <Route path="/funciones" element={<Funciones />} />
 					  <Route path="/modulos" element={<Modulos />} />
+					  <Route path="/casita" element={<MiCasita />} />
 				  </Routes>
 			  </BrowserRouter>
 			);

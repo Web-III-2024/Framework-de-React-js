@@ -32,6 +32,9 @@ import React from 'react';
 								<Link to="/funciones" className="nav-link">Funciones</Link>
 							</li>
 							<li className="nav-item">
+								<Link to="/casita" className="nav-link">Mi casita</Link>
+							</li>
+							<li className="nav-item">
 								<Link to="/about" className="nav-link">Acerca de</Link>
 							</li>
 						</ul>
